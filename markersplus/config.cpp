@@ -38,7 +38,7 @@ class CfgMarkers
 	class mplus_aapoint
 	{
 		markerClass="mplus_points";
-		name="Generic dot";
+		name="Generic Point";
 		icon="markersplus\data\img\aapoint.paa";
 		color[]={1,1,1,1};
 		size=32;
