@@ -35,6 +35,17 @@ class CfgMarkerClasses
 class CfgMarkers
 {
 	// Tasks
+		class mplus_aapoint
+	{
+		markerClass="mplus_points";
+		name="A Point";
+		icon="markersplus\data\img\aapoint.paa";
+		color[]={1,1,1,1};
+		size=32;
+		shadow=0;
+		scope=2;
+		showEditorMarkerColor=1;
+	};
 	class mplus_ambush
 	{
 		markerClass="mplus_tasks";
@@ -578,16 +589,4 @@ class CfgMarkers
 		scope=2;
 		showEditorMarkerColor=1;
 	};
-		class mplus_aapoint
-	{
-		markerClass="mplus_points";
-		name="A Point";
-		icon="markersplus\data\img\aapoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
-	};
-
 };
