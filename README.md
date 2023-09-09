@@ -7,13 +7,8 @@
 
 Integrated MIL-STD 2525D markers making it easier for everyone to communicate intent on the map. Hopefully, this addon enhances tactical gameplay, ensuring smoother teamwork and more successful missions for all.
 
+![](https://github.com/0xBC13FE/ImageDatabase/blob/main/PNG/aapoint.png)
 
-
-
-<details>
-  <summary>Icons (Click for reveal)</summary>
-  
-  ![](https://github.com/0xBC13FE/ImageDatabase/blob/main/PNG/aapoint.png)  Generic point for various uses.
-
-
-</details>
+Icon | Description | Icon | Description
+---------- | ---------- | ---------- | ---------- |
+![](https://github.com/0xBC13FE/ImageDatabase/blob/main/PNG/aapoint.png) | Generic point used for various purposes | ![](https://github.com/0xBC13FE/ImageDatabase/blob/main/PNG/ambush.png) | An attack by fire or other destructive means from concealed positions on a moving or temporarily halted enemy.
