@@ -13,12 +13,7 @@ Integrated MIL-STD 2525D markers making it easier for everyone to communicate in
 <details>
   <summary>Icons (Click for reveal)</summary>
   
-  ---
-  | Tables        | Are           | Cool  |
-  | ------------- |:-------------:| -----:|
-  | ![](https://github.com/0xBC13FE/ImageDatabase/blob/main/PNG/aapoint.png)      | right-aligned | $1600 |
-  | col 2 is      | centered      |   $12 |
-  | zebra stripes | are neat      |    $1 |
+  ![](https://github.com/0xBC13FE/ImageDatabase/blob/main/PNG/aapoint.png)  Generic point for various uses.
 
 
 </details>
