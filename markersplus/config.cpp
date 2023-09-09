@@ -35,7 +35,7 @@ class CfgMarkerClasses
 class CfgMarkers
 {
 	// Tasks
-		class mplus_aapoint
+	class mplus_aapoint
 	{
 		markerClass="mplus_points";
 		name="A Point";
