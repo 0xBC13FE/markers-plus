@@ -46,547 +46,250 @@ class CfgMarkers
 		scope=2;
 		showEditorMarkerColor=1;
 	};
-	class mplus_ambush
+	class mplus_ambush: mplus_aapoint
 	{
 		markerClass="mplus_tasks";
 		name="Ambush";
 		icon="markersplus\data\img\ambush.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_attackbyfire
+	class mplus_attackbyfire: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Attack by fire";
 		icon="markersplus\data\img\attackbyfire.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_breach
+	class mplus_breach: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Breach";
 		icon="markersplus\data\img\breach.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_bypass
+	class mplus_bypass: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Bypass";
 		icon="markersplus\data\img\bypass.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_clear
+	class mplus_clear: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Clear";
 		icon="markersplus\data\img\clear.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_disengage
+	class mplus_disengage: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Disengage";
 		icon="markersplus\data\img\disengage.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_exfiltrate
+	class mplus_exfiltrate: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Exfiltrate";
 		icon="markersplus\data\img\exfiltrate.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_followassume
+	class mplus_followassume: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Follow and Assume";
 		icon="markersplus\data\img\followassume.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_followsupport
+	class mplus_followsupport: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Follow and Support";
 		icon="markersplus\data\img\followsupport.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_occupy
+	class mplus_occupy: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Occupy";
 		icon="markersplus\data\img\occupy.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_retain
+	class mplus_retain: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Retain";
 		icon="markersplus\data\img\retain.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_secure
+	class mplus_secure: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Secure";
 		icon="markersplus\data\img\secure.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_seize
+	class mplus_seize: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Seize";
 		icon="markersplus\data\img\seize.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_supportbyfire
+	class mplus_supportbyfire: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Support by Fire";
 		icon="markersplus\data\img\supportbyfire.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_block
+	class mplus_block: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Block";
 		icon="markersplus\data\img\block.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_canalize
+	class mplus_canalize: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Canalize";
 		icon="markersplus\data\img\canalize.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_contain
+	class mplus_contain: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Contain";
 		icon="markersplus\data\img\contain.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_destroy
+	class mplus_destroy: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Destroy";
 		icon="markersplus\data\img\destroy.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_disrupt
+	class mplus_disrupt: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Disrupt";
 		icon="markersplus\data\img\disrupt.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_fix
+	class mplus_fix: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Fix";
 		icon="markersplus\data\img\fix.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_isolate
+	class mplus_isolate: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Isolate";
 		icon="markersplus\data\img\isolate.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_interdict
+	class mplus_interdict: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Interdict";
 		icon="markersplus\data\img\interdict.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_neutralize
+	class mplus_neutralize: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Neutralize";
 		icon="markersplus\data\img\neutralize.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_supress
+	class mplus_supress: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Supress";
 		icon="markersplus\data\img\supress.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_turn
+	class mplus_turn: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Turn";
 		icon="markersplus\data\img\turn.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_cordonknock
+	class mplus_cordonknock: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Cordon and Knock";
 		icon="markersplus\data\img\cordonknock.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_cordonsearch
+	class mplus_cordonsearch: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Cordon and Search";
 		icon="markersplus\data\img\cordonsearch.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_guard
+	class mplus_guard: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Guard";
 		icon="markersplus\data\img\guard.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_screen
+	class mplus_screen: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Screen";
 		icon="markersplus\data\img\screen.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_cover
+	class mplus_cover: mplus_ambush
 	{
-		markerClass="mplus_tasks";
 		name="Cover";
 		icon="markersplus\data\img\cover.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
 
 	// Movement and Manuever
-	class mplus_feintattack
+	class mplus_feintattack: mplus_aapoint
 	{
 		markerClass="mplus_movement";
 		name="Feint attack Arrow";
 		icon="markersplus\data\img\feintattack.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_mainattack
+	class mplus_mainattack: mplus_feintattack
 	{
-		markerClass="mplus_movement";
 		name="Main attack Arrow";
 		icon="markersplus\data\img\mainattack.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-	class mplus_phaseline
+	class mplus_phaseline: mplus_feintattack
 	{
-		markerClass="mplus_movement";
 		name="Phaseline";
 		icon="markersplus\data\img\phaseline.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
 
 	// Points
-		class mplus_checkpoint
+	class mplus_checkpoint: mplus_aapoint
 	{
-		markerClass="mplus_points";
 		name="Checkpoint";
 		icon="markersplus\data\img\checkpoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_linkuppoint
+	class mplus_linkuppoint: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Linkup Point";
 		icon="markersplus\data\img\linkuppoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_passagepoint
+	class mplus_passagepoint: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Passage Point";
 		icon="markersplus\data\img\passagepoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_rallypoint
+	class mplus_rallypoint: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Rally Point";
 		icon="markersplus\data\img\rallypoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_releasepoint
+	class mplus_releasepoint: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Release Point";
 		icon="markersplus\data\img\releasepoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_startpoint
+	class mplus_startpoint: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Start Point";
 		icon="markersplus\data\img\startpoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_departurepoint
+	class mplus_departurepoint: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Point of Departure";
 		icon="markersplus\data\img\departurepoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_civpoint
+	class mplus_civpoint: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Civilian Collection Point";
 		icon="markersplus\data\img\civpoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_iprp
+	class mplus_iprp: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Isolated Personnel Recovery Point";
 		icon="markersplus\data\img\iprp.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_sarpoint
+	class mplus_sarpoint: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Search and Rescue Point";
 		icon="markersplus\data\img\sarpoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_ammopoint
+	class mplus_ammopoint: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Ammunition Supply Point";
 		icon="markersplus\data\img\ammopoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_ccppoint
+	class mplus_ccppoint: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Casualty Collection Point";
 		icon="markersplus\data\img\ccppoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_medevac
+	class mplus_medevac: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Medical Evacuation Point";
 		icon="markersplus\data\img\medevac.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_r3p
+	class mplus_r3p: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Rearm, Refuel and Resupply Point";
 		icon="markersplus\data\img\r3p.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
-		class mplus_waypoint
+	class mplus_waypoint: mplus_checkpoint
 	{
-		markerClass="mplus_points";
 		name="Waypoint";
 		icon="markersplus\data\img\waypoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
-	};
-		class mplus_departurepoint
-	{
-		markerClass="mplus_points";
-		name="Point of Departure";
-		icon="markersplus\data\img\departurepoint.paa";
-		color[]={1,1,1,1};
-		size=32;
-		shadow=0;
-		scope=2;
-		showEditorMarkerColor=1;
 	};
 };
